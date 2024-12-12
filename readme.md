@@ -41,13 +41,13 @@ Through this project, I:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/meal-search-project.git
+   git clone https://github.com/danyelasuzy/Recipes_Fetch_Project.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd meal-search-project
+   cd recipes search project
    ```
 
 3. **Open `index.html` in your web browser**:
@@ -61,4 +61,4 @@ Through this project, I:
 
 This project is licensed under the **MIT License**.
 
-Click here for sneak preview
+Click here for sneak preview https://danyelasuzy.github.io/Recipes_Fetch_Project/
