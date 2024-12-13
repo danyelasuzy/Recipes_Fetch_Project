@@ -86,10 +86,11 @@ const fetchData = async (query) => {
           const ingredientsList = document.createElement("ul");
           for (let i = 1; i <= 20; i++) {
             const ingredient = meal[`strIngredient${i}`];
+            const measure = meal[`strMeasure${i}`];
 
             if (ingredient && ingredient.trim() !== "") {
               const listItem = document.createElement("li");
-              listItem.textContent = `${ingredient}`;
+              listItem.textContent = `${measure || ""} ${ingredient} `;
               ingredientsList.appendChild(listItem);
             }
           }
